@@ -1,0 +1,5 @@
+model,is_uncertain
+Model_A,0.276
+Model_B,0.32
+Model_C,0.446
+Real_LLM,0.04

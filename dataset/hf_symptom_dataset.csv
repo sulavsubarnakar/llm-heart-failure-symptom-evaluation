@@ -1,0 +1,501 @@
+id,symptom_description,category,hf_relevance,reference_interpretation,source
+1,I feel short of breath when walking up a small hill,dyspnea,possible_HF,Breathlessness during mild exertion may indicate reduced cardiac function,NHS
+2,I get out of breath after climbing only a few stairs,dyspnea,possible_HF,Shortness of breath during light activity may suggest cardiovascular limitations,Mayo Clinic
+3,I struggle to catch my breath after walking a short distance,dyspnea,possible_HF,Exertional breathlessness can be associated with heart failure,British Heart Foundation
+4,I feel breathless when doing simple house chores like cleaning,dyspnea,possible_HF,Breathlessness during routine activity may reflect reduced cardiac output,NHS
+5,I become out of breath while carrying groceries,dyspnea,possible_HF,Physical exertion breathlessness may indicate cardiovascular strain,Mayo Clinic
+6,I get breathless when walking at a normal pace,dyspnea,possible_HF,Reduced exercise tolerance may suggest heart dysfunction,British Heart Foundation
+7,I feel breathless after light physical activity,dyspnea,possible_HF,Breathlessness during mild effort may indicate impaired heart function,NHS
+8,I notice I am breathing heavily after small activities,dyspnea,possible_HF,Exertional dyspnea may be associated with heart failure,Mayo Clinic
+9,I feel like I cannot breathe deeply when walking uphill,dyspnea,possible_HF,Breathing difficulty during exertion may reflect reduced cardiac performance,British Heart Foundation
+10,I get out of breath quickly when walking fast,dyspnea,possible_HF,Shortness of breath with exertion may indicate cardiovascular limitations,NHS
+11,I feel breathless when I lie flat in bed,dyspnea,HF_related,Orthopnea is a common symptom of heart failure,Mayo Clinic
+12,I need multiple pillows to sleep comfortably because of breathing,dyspnea,HF_related,Difficulty breathing when lying flat may indicate pulmonary congestion,British Heart Foundation
+13,I feel like I cannot breathe properly when lying down,dyspnea,HF_related,Breathlessness when supine may indicate fluid buildup in the lungs,NHS
+14,I wake up suddenly at night feeling breathless,dyspnea,HF_related,Paroxysmal nocturnal dyspnea is associated with heart failure,Mayo Clinic
+15,I sometimes wake up gasping for air during sleep,dyspnea,HF_related,Nighttime breathlessness may indicate pulmonary congestion,British Heart Foundation
+16,I feel breathless when trying to sleep without extra pillows,dyspnea,HF_related,Orthopnea may suggest fluid accumulation in the lungs,NHS
+17,I struggle to breathe when lying completely flat,dyspnea,HF_related,Breathlessness in supine position is linked with heart failure,Mayo Clinic
+18,I feel pressure in my chest and breathlessness when lying down,dyspnea,HF_related,Postural breathing difficulty may indicate heart failure,British Heart Foundation
+19,I wake up breathless in the middle of the night,dyspnea,HF_related,Paroxysmal nocturnal dyspnea may indicate heart failure,NHS
+20,I feel like my breathing worsens when I lie flat,dyspnea,HF_related,Breathlessness when supine may reflect pulmonary congestion,Mayo Clinic
+21,I sometimes feel short of breath even when sitting still,dyspnea,possible_HF,Breathlessness at rest may indicate advanced cardiac dysfunction,British Heart Foundation
+22,I feel breathless while resting on the sofa,dyspnea,possible_HF,Shortness of breath at rest may indicate cardiovascular problems,NHS
+23,I struggle to breathe comfortably when sitting quietly,dyspnea,possible_HF,Breathlessness at rest may reflect heart or lung disease,Mayo Clinic
+24,I feel breathless even without doing anything physical,dyspnea,possible_HF,Unexplained breathlessness may indicate cardiac dysfunction,British Heart Foundation
+25,I notice my breathing feels heavy while resting,dyspnea,possible_HF,Breathing difficulty without exertion may indicate cardiovascular problems,NHS
+26,I feel breathless while talking for long periods,dyspnea,uncertain,Breathlessness during speech may have multiple causes,Mayo Clinic
+27,I sometimes struggle to breathe after laughing a lot,dyspnea,uncertain,Shortness of breath after exertion may be non-specific,British Heart Foundation
+28,I feel breathless during stressful situations,dyspnea,uncertain,Stress-related breathlessness may not indicate heart failure,NHS
+29,I feel breathless in hot environments,dyspnea,uncertain,Breathlessness due to heat exposure may be unrelated to heart failure,Mayo Clinic
+30,I sometimes feel breathless when I am anxious,dyspnea,uncertain,Anxiety-related breathlessness is not specific to heart failure,British Heart Foundation
+31,I get breathless when running long distances,dyspnea,uncertain,Breathlessness during intense exercise is often normal,NHS
+32,I feel breathless during very heavy exercise,dyspnea,uncertain,Heavy exertion breathlessness may not indicate disease,Mayo Clinic
+33,I struggle to breathe after sprinting,dyspnea,uncertain,Post-exercise breathlessness may be normal,British Heart Foundation
+34,I feel breathless during intense physical training,dyspnea,uncertain,Exercise-related breathlessness may be physiological,NHS
+35,I feel breathless after playing sports,dyspnea,uncertain,Breathlessness after intense activity may not indicate heart failure,Mayo Clinic
+36,I notice mild breathlessness when climbing mountains,dyspnea,uncertain,High altitude breathlessness may be environmental,British Heart Foundation
+37,I feel breathless during panic attacks,dyspnea,uncertain,Panic-induced breathlessness is psychological,NHS
+38,I feel breathless when I am extremely nervous,dyspnea,uncertain,Nervousness may cause temporary breathlessness,Mayo Clinic
+39,I sometimes feel breathless during emotional stress,dyspnea,uncertain,Stress-related breathing changes are not specific,British Heart Foundation
+40,I feel breathless when speaking in public,dyspnea,uncertain,Performance anxiety may cause breathlessness,NHS
+41,I feel breathless when walking slowly across the room,dyspnea,possible_HF,Breathlessness with minimal exertion may indicate heart dysfunction,Mayo Clinic
+42,I get short of breath when standing for a few minutes,dyspnea,possible_HF,Minimal exertion breathlessness may indicate cardiac issues,British Heart Foundation
+43,I feel breathless when walking inside my house,dyspnea,possible_HF,Breathlessness during minimal activity may reflect reduced cardiac output,NHS
+44,I struggle to breathe after getting out of bed,dyspnea,possible_HF,Breathlessness with minimal activity may indicate cardiovascular limitations,Mayo Clinic
+45,I feel breathless while preparing simple meals,dyspnea,possible_HF,Breathlessness during routine tasks may indicate heart dysfunction,British Heart Foundation
+46,I get breathless when bending down to pick things up,dyspnea,possible_HF,Breathlessness during posture changes may reflect cardiovascular problems,NHS
+47,I feel breathless when walking across a parking lot,dyspnea,possible_HF,Short distance breathlessness may indicate cardiac impairment,Mayo Clinic
+48,I feel breathless while dressing myself,dyspnea,possible_HF,Breathlessness during simple activities may reflect reduced cardiac output,British Heart Foundation
+49,I get out of breath while brushing the floor,dyspnea,possible_HF,Exertional breathlessness may indicate heart dysfunction,NHS
+50,I feel breathless after very small efforts,dyspnea,possible_HF,Reduced tolerance to exertion may indicate cardiovascular disease,Mayo Clinic
+51,My ankles become swollen by the evening,oedema,HF_related,Peripheral ankle swelling may indicate fluid retention associated with heart failure,NHS
+52,My feet look puffy at the end of the day,oedema,HF_related,Foot swelling may indicate fluid accumulation,Mayo Clinic
+53,I notice swelling around my ankles after standing,oedema,HF_related,Lower limb swelling may reflect fluid retention,British Heart Foundation
+54,My shoes feel tight because my feet swell,oedema,HF_related,Foot swelling may indicate fluid retention,NHS
+55,My lower legs appear swollen by night,oedema,HF_related,Lower limb oedema is commonly associated with heart failure,Mayo Clinic
+56,I notice puffiness around my ankles in the evening,oedema,HF_related,Peripheral oedema may indicate fluid buildup,British Heart Foundation
+57,My feet swell after being on my feet all day,oedema,HF_related,Swelling after prolonged standing may indicate fluid retention,NHS
+58,My ankles look larger than usual at night,oedema,HF_related,Evening ankle swelling may indicate fluid accumulation,Mayo Clinic
+59,I see swelling around my lower legs,oedema,HF_related,Leg swelling may indicate circulatory or cardiac issues,British Heart Foundation
+60,My feet feel tight and swollen,oedema,HF_related,Foot oedema may indicate fluid retention,NHS
+61,I notice deep marks on my legs from my socks,oedema,possible_HF,Sock indentations may indicate leg swelling,Mayo Clinic
+62,My ankles swell after long periods of sitting,oedema,possible_HF,Swelling after inactivity may indicate fluid retention,British Heart Foundation
+63,My feet appear puffy after a long day,oedema,possible_HF,Foot swelling may reflect fluid accumulation,NHS
+64,I notice swelling around my calves,oedema,possible_HF,Calf swelling may indicate circulation issues,Mayo Clinic
+65,My legs feel heavy and swollen,oedema,possible_HF,Leg swelling may indicate fluid buildup,British Heart Foundation
+66,I feel tightness in my ankles due to swelling,oedema,possible_HF,Ankle swelling may reflect fluid retention,NHS
+67,My feet swell slightly after walking,oedema,possible_HF,Activity-related swelling may occur with circulatory problems,Mayo Clinic
+68,I notice swelling around my lower legs at night,oedema,possible_HF,Nighttime swelling may indicate fluid retention,British Heart Foundation
+69,My ankles look puffy when I remove my socks,oedema,possible_HF,Ankle swelling may suggest fluid accumulation,NHS
+70,I sometimes see swelling around my feet,oedema,possible_HF,Foot swelling may have cardiovascular causes,Mayo Clinic
+71,My ankles swell slightly after standing for hours,oedema,uncertain,Swelling after prolonged standing may be non-specific,British Heart Foundation
+72,I get mild swelling in my feet during hot weather,oedema,uncertain,Heat-related swelling may occur without heart disease,NHS
+73,I notice slight swelling in my feet after long travel,oedema,uncertain,Travel-related swelling may be temporary,Mayo Clinic
+74,My ankles sometimes look swollen after exercise,oedema,uncertain,Exercise-related swelling may be non-specific,British Heart Foundation
+75,I notice occasional swelling in my legs,oedema,uncertain,Intermittent swelling may have multiple causes,NHS
+76,My feet feel slightly puffy after a long day,oedema,uncertain,Temporary swelling may not indicate heart failure,Mayo Clinic
+77,I sometimes get swelling in my ankles when tired,oedema,uncertain,Non-specific swelling may have various causes,British Heart Foundation
+78,I see mild swelling in my feet during hot days,oedema,uncertain,Heat-induced swelling may be benign,NHS
+79,My ankles occasionally swell slightly,oedema,uncertain,Occasional swelling may not indicate cardiovascular disease,Mayo Clinic
+80,I sometimes notice slight puffiness in my feet,oedema,uncertain,Mild swelling may be non-specific,British Heart Foundation
+81,My fingers swell slightly when it is hot,non_HF,not_HF,Finger swelling in heat is not related to heart failure,NHS
+82,I get swelling around my eyes in the morning,non_HF,not_HF,Periorbital swelling is unrelated to heart failure,Mayo Clinic
+83,I sometimes get swollen lips due to allergies,non_HF,not_HF,Allergic swelling is unrelated to heart failure,British Heart Foundation
+84,I have swelling in my finger joints from arthritis,non_HF,not_HF,Joint swelling is not associated with heart failure,NHS
+85,I get swelling in my hands when exercising,non_HF,not_HF,Exercise-related hand swelling is unrelated to heart failure,Mayo Clinic
+86,My hands swell when I grip things tightly,non_HF,not_HF,Hand swelling during activity is not heart failure related,British Heart Foundation
+87,I notice swelling around my wrists sometimes,non_HF,not_HF,Wrist swelling may have musculoskeletal causes,NHS
+88,My fingers feel swollen when it is cold,non_HF,not_HF,Cold-induced swelling is unrelated to heart failure,Mayo Clinic
+89,I get swelling in my knuckles after heavy work,non_HF,not_HF,Knuckle swelling from strain is unrelated to heart failure,British Heart Foundation
+90,I notice swelling in my hands after lifting weights,non_HF,not_HF,Hand swelling due to exertion is unrelated to heart failure,NHS
+91,My legs feel swollen and heavy by the evening,oedema,HF_related,Leg swelling may indicate fluid retention associated with heart failure,Mayo Clinic
+92,My ankles swell every evening,oedema,HF_related,Regular ankle swelling may indicate peripheral oedema,British Heart Foundation
+93,I notice swelling around my feet every night,oedema,HF_related,Consistent foot swelling may indicate fluid retention,NHS
+94,My feet become swollen after small activities,oedema,possible_HF,Swelling after activity may indicate circulatory issues,Mayo Clinic
+95,I see swelling around my ankles when standing,oedema,possible_HF,Standing-related swelling may indicate fluid accumulation,British Heart Foundation
+96,My lower legs feel tight because of swelling,oedema,possible_HF,Leg tightness due to swelling may indicate oedema,NHS
+97,I notice swelling around my ankles when sitting long,oedema,possible_HF,Prolonged sitting may cause leg swelling,Mayo Clinic
+98,My feet swell slightly by the evening,oedema,possible_HF,Evening swelling may indicate fluid buildup,British Heart Foundation
+99,My ankles sometimes look swollen in the mirror,oedema,possible_HF,Visible ankle swelling may indicate oedema,NHS
+100,I notice swelling around my feet when resting,oedema,possible_HF,Resting foot swelling may indicate fluid retention,Mayo Clinic
+101,I feel extremely tired even after resting,fatigue,possible_HF,Persistent fatigue may indicate reduced cardiac output,NHS
+102,I get exhausted after doing small tasks,fatigue,possible_HF,Fatigue during minor activity may indicate cardiovascular limitations,Mayo Clinic
+103,I feel drained most of the day,fatigue,possible_HF,Chronic fatigue may occur in heart failure,British Heart Foundation
+104,I have very little energy lately,fatigue,possible_HF,Reduced energy levels may indicate cardiovascular dysfunction,NHS
+105,I feel worn out after minimal effort,fatigue,possible_HF,Low tolerance to activity may reflect reduced cardiac output,Mayo Clinic
+106,I feel constantly tired without clear reason,fatigue,uncertain,Fatigue alone is non-specific,British Heart Foundation
+107,I struggle to stay energetic during the day,fatigue,possible_HF,Reduced energy may be associated with heart disease,NHS
+108,I feel tired even after sleeping well,fatigue,possible_HF,Persistent fatigue may reflect reduced oxygen delivery,Mayo Clinic
+109,I feel weak and tired most days,fatigue,possible_HF,General fatigue may be linked with cardiovascular conditions,British Heart Foundation
+110,I feel exhausted after walking short distances,fatigue,possible_HF,Activity-related fatigue may indicate cardiac dysfunction,NHS
+111,I feel low on energy all the time,fatigue,possible_HF,Reduced stamina may indicate cardiovascular issues,Mayo Clinic
+112,I struggle to keep up with daily activities because of fatigue,fatigue,possible_HF,Chronic fatigue may occur with heart failure,British Heart Foundation
+113,I get tired quickly while doing chores,fatigue,possible_HF,Fatigue during normal tasks may reflect reduced cardiac output,NHS
+114,I feel physically drained most afternoons,fatigue,uncertain,General fatigue can have multiple causes,Mayo Clinic
+115,I feel unusually tired after mild exercise,fatigue,possible_HF,Reduced exercise tolerance may indicate cardiovascular problems,British Heart Foundation
+116,I wake up feeling tired even after long sleep,fatigue,uncertain,Fatigue alone is not diagnostic,NHS
+117,I feel weak throughout the day,fatigue,possible_HF,General weakness may occur in heart failure,Mayo Clinic
+118,I feel tired while doing basic housework,fatigue,possible_HF,Fatigue during daily activities may reflect reduced cardiac output,British Heart Foundation
+119,I struggle with low energy every day,fatigue,possible_HF,Chronic fatigue may indicate cardiovascular dysfunction,NHS
+120,I get tired faster than I used to,fatigue,possible_HF,Reduced stamina may indicate cardiac impairment,Mayo Clinic
+121,I feel exhausted even after light activity,fatigue,possible_HF,Fatigue after minimal exertion may indicate heart failure,British Heart Foundation
+122,I feel tired when walking around the house,fatigue,possible_HF,Fatigue during minimal activity may reflect reduced cardiac output,NHS
+123,I feel drained by simple tasks,fatigue,possible_HF,Low tolerance to exertion may indicate cardiovascular issues,Mayo Clinic
+124,I feel weak when standing for long periods,fatigue,possible_HF,Weakness during activity may indicate circulatory problems,British Heart Foundation
+125,I feel tired after climbing a few stairs,fatigue,possible_HF,Fatigue with exertion may indicate cardiac dysfunction,NHS
+126,I get exhausted while shopping,fatigue,possible_HF,Activity fatigue may indicate cardiovascular limitations,Mayo Clinic
+127,I struggle with fatigue during everyday activities,fatigue,possible_HF,Reduced stamina may occur in heart failure,British Heart Foundation
+128,I feel unusually tired while cooking,fatigue,possible_HF,Fatigue during routine tasks may indicate cardiac impairment,NHS
+129,I feel weak after walking short distances,fatigue,possible_HF,Exercise fatigue may indicate reduced cardiac output,Mayo Clinic
+130,I feel tired quickly during daily routines,fatigue,possible_HF,Fatigue during simple tasks may reflect cardiovascular issues,British Heart Foundation
+131,I cannot walk as far as I used to without resting,exercise_intolerance,possible_HF,Reduced exercise tolerance may indicate heart dysfunction,NHS
+132,I get tired after climbing a single flight of stairs,exercise_intolerance,possible_HF,Difficulty climbing stairs may indicate cardiovascular limitations,Mayo Clinic
+133,I need to stop frequently when walking,exercise_intolerance,possible_HF,Frequent rest during walking may indicate reduced cardiac capacity,British Heart Foundation
+134,I struggle to finish simple physical tasks,exercise_intolerance,possible_HF,Reduced endurance may reflect cardiovascular problems,NHS
+135,I get tired quickly during physical activity,exercise_intolerance,possible_HF,Low exercise tolerance may indicate cardiac impairment,Mayo Clinic
+136,I cannot keep up with others while walking,exercise_intolerance,possible_HF,Reduced stamina may indicate cardiovascular dysfunction,British Heart Foundation
+137,I feel exhausted when trying to exercise,exercise_intolerance,possible_HF,Exercise intolerance may indicate heart failure,NHS
+138,I avoid physical activity because it tires me quickly,exercise_intolerance,possible_HF,Reduced activity tolerance may indicate cardiac disease,Mayo Clinic
+139,I need breaks during simple tasks,exercise_intolerance,possible_HF,Frequent resting during tasks may reflect reduced cardiac output,British Heart Foundation
+140,I struggle to carry groceries without resting,exercise_intolerance,possible_HF,Activity intolerance may indicate cardiovascular limitations,NHS
+141,I feel exhausted when walking uphill,exercise_intolerance,possible_HF,Exertion fatigue may indicate cardiac dysfunction,Mayo Clinic
+142,I cannot finish small chores without resting,exercise_intolerance,possible_HF,Reduced endurance may indicate heart problems,British Heart Foundation
+143,I get tired when standing for long periods,exercise_intolerance,possible_HF,Reduced tolerance for standing may indicate circulatory problems,NHS
+144,I struggle to walk long distances,exercise_intolerance,possible_HF,Reduced exercise tolerance may indicate heart dysfunction,Mayo Clinic
+145,I feel weak after physical activity,exercise_intolerance,possible_HF,Post-exertion weakness may indicate cardiovascular impairment,British Heart Foundation
+146,I get exhausted quickly during exercise,exercise_intolerance,possible_HF,Exercise intolerance may reflect reduced cardiac output,NHS
+147,I struggle with endurance during activity,exercise_intolerance,possible_HF,Low stamina may indicate cardiovascular issues,Mayo Clinic
+148,I feel tired while performing light physical work,exercise_intolerance,possible_HF,Fatigue during activity may indicate heart dysfunction,British Heart Foundation
+149,I cannot finish walking routes I used to enjoy,exercise_intolerance,possible_HF,Reduced endurance may indicate cardiac impairment,NHS
+150,I feel exhausted during simple movements,exercise_intolerance,possible_HF,Low activity tolerance may indicate cardiovascular disease,Mayo Clinic
+151,I feel tired when jogging,exercise_intolerance,uncertain,Fatigue during intense exercise may be normal,British Heart Foundation
+152,I feel exhausted after sports,exercise_intolerance,uncertain,Exercise fatigue may be physiological,NHS
+153,I struggle during long-distance running,exercise_intolerance,uncertain,Heavy exercise fatigue may not indicate disease,Mayo Clinic
+154,I feel weak during competitive sports,exercise_intolerance,uncertain,Intense activity fatigue may be normal,British Heart Foundation
+155,I feel exhausted after gym workouts,exercise_intolerance,uncertain,Fatigue after heavy exercise may be normal,NHS
+156,I feel tired when doing extreme physical activity,exercise_intolerance,uncertain,Intense exercise fatigue is not diagnostic,Mayo Clinic
+157,I struggle during marathon training,exercise_intolerance,uncertain,Endurance fatigue may be physiological,British Heart Foundation
+158,I feel weak during intense sports matches,exercise_intolerance,uncertain,Heavy activity fatigue may be normal,NHS
+159,I get tired during long hikes,exercise_intolerance,uncertain,Exertion fatigue may occur in healthy individuals,Mayo Clinic
+160,I feel exhausted after playing football,exercise_intolerance,uncertain,Physical exhaustion after sports may be normal,British Heart Foundation
+161,I feel dizzy sometimes when standing quickly,uncertain,uncertain,Dizziness may have multiple causes,NHS
+162,I feel lightheaded occasionally,uncertain,uncertain,Lightheadedness is non-specific,Mayo Clinic
+163,I sometimes feel weak after skipping meals,uncertain,uncertain,Weakness may be metabolic,British Heart Foundation
+164,I feel tired after working long hours,uncertain,uncertain,Fatigue due to workload may not indicate disease,NHS
+165,I feel drained after stressful days,uncertain,uncertain,Stress fatigue is non-specific,Mayo Clinic
+166,I feel weak during stressful situations,uncertain,uncertain,Stress-related fatigue may occur,British Heart Foundation
+167,I feel tired after poor sleep,uncertain,uncertain,Sleep deprivation fatigue is non-specific,NHS
+168,I feel weak after long travel,uncertain,uncertain,Travel fatigue may be temporary,Mayo Clinic
+169,I feel drained after emotional stress,uncertain,uncertain,Emotional fatigue is non-specific,British Heart Foundation
+170,I feel tired after studying for long hours,uncertain,uncertain,Mental fatigue is unrelated to heart failure,NHS
+171,I have frequent headaches,non_HF,not_HF,Headaches are unrelated to heart failure,Mayo Clinic
+172,I often get sore throats,non_HF,not_HF,Sore throat is unrelated to heart failure,British Heart Foundation
+173,I have ear pain occasionally,non_HF,not_HF,Ear pain is unrelated to heart failure,NHS
+174,I get skin rashes sometimes,non_HF,not_HF,Skin rash is unrelated to heart failure,Mayo Clinic
+175,I have itchy skin frequently,non_HF,not_HF,Itching is unrelated to heart failure,British Heart Foundation
+176,I get stomach pain occasionally,non_HF,not_HF,Stomach pain is unrelated to heart failure,NHS
+177,I sometimes have finger joint pain,non_HF,not_HF,Joint pain is unrelated to heart failure,Mayo Clinic
+178,I experience mild ear ringing,non_HF,not_HF,Tinnitus is unrelated to heart failure,British Heart Foundation
+179,I have throat irritation sometimes,non_HF,not_HF,Throat irritation is unrelated to heart failure,NHS
+180,I sometimes get muscle cramps in my hands,non_HF,not_HF,Hand cramps are unrelated to heart failure,Mayo Clinic
+181,I get mild headaches after long screen time,non_HF,not_HF,Headaches due to screen strain are unrelated,British Heart Foundation
+182,I feel ear pressure during flights,non_HF,not_HF,Ear pressure during flights is unrelated to heart failure,NHS
+183,I get mild skin irritation from soap,non_HF,not_HF,Skin irritation is unrelated to heart failure,Mayo Clinic
+184,I sometimes have dry eyes,non_HF,not_HF,Dry eyes are unrelated to heart failure,British Heart Foundation
+185,I feel throat dryness in cold weather,non_HF,not_HF,Throat dryness is unrelated to heart failure,NHS
+186,I get mild stomach discomfort after eating spicy food,non_HF,not_HF,Digestive discomfort is unrelated to heart failure,Mayo Clinic
+187,I sometimes get neck pain after sleeping badly,non_HF,not_HF,Neck pain is unrelated to heart failure,British Heart Foundation
+188,I feel jaw soreness after chewing gum,non_HF,not_HF,Jaw soreness is unrelated to heart failure,NHS
+189,I get mild back pain after lifting boxes,non_HF,not_HF,Back strain is unrelated to heart failure,Mayo Clinic
+190,I have mild knee pain when running,non_HF,not_HF,Knee pain is unrelated to heart failure,British Heart Foundation
+191,I sometimes get mild headaches in the evening,non_HF,not_HF,Evening headaches are unrelated to heart failure,NHS
+192,I get mild throat pain when coughing,non_HF,not_HF,Throat pain is unrelated to heart failure,Mayo Clinic
+193,I feel itchy after insect bites,non_HF,not_HF,Insect bite irritation is unrelated to heart failure,British Heart Foundation
+194,I sometimes get muscle soreness after exercise,non_HF,not_HF,Muscle soreness is unrelated to heart failure,NHS
+195,I have mild wrist pain from typing,non_HF,not_HF,Wrist strain is unrelated to heart failure,Mayo Clinic
+196,I get mild shoulder pain from carrying bags,non_HF,not_HF,Shoulder strain is unrelated to heart failure,British Heart Foundation
+197,I sometimes feel dry skin in winter,non_HF,not_HF,Dry skin is unrelated to heart failure,NHS
+198,I get mild ankle pain after running,non_HF,not_HF,Ankle pain from exercise is unrelated to heart failure,Mayo Clinic
+199,I feel slight eye irritation from dust,non_HF,not_HF,Eye irritation is unrelated to heart failure,British Heart Foundation
+200,I sometimes get mild sinus pressure,non_HF,not_HF,Sinus pressure is unrelated to heart failure,NHS
+201,I have a persistent cough that gets worse at night,cough,possible_HF,Nighttime cough may indicate fluid accumulation in the lungs,NHS
+202,I often cough when lying flat in bed,cough,possible_HF,Cough when lying down may be associated with pulmonary congestion,Mayo Clinic
+203,I notice a dry cough that does not go away,cough,possible_HF,Persistent dry cough may be associated with cardiovascular or respiratory issues,British Heart Foundation
+204,I sometimes wake up coughing during the night,cough,possible_HF,Nighttime cough episodes may indicate pulmonary congestion,NHS
+205,I cough more when lying down to sleep,cough,possible_HF,Postural cough may suggest fluid in the lungs,Mayo Clinic
+206,I have a cough that appears mostly at night,cough,possible_HF,Night cough may occur in heart failure,British Heart Foundation
+207,I cough frequently when resting in bed,cough,possible_HF,Cough while lying down may be linked with pulmonary congestion,NHS
+208,I feel breathless and cough during the night,cough,possible_HF,Combined breathlessness and cough may indicate cardiac congestion,Mayo Clinic
+209,I notice coughing fits when trying to sleep,cough,possible_HF,Night cough episodes may indicate fluid buildup,British Heart Foundation
+210,I cough more when lying on my back,cough,possible_HF,Postural coughing may indicate pulmonary fluid,NHS
+211,I sometimes cough after mild activity,cough,uncertain,Activity-related cough may have various causes,Mayo Clinic
+212,I notice a mild cough after long conversations,cough,uncertain,Occasional cough may be non-specific,British Heart Foundation
+213,I cough occasionally during the day,cough,uncertain,Intermittent cough may have multiple causes,NHS
+214,I get a cough during cold weather,cough,uncertain,Cold-related cough may be environmental,Mayo Clinic
+215,I sometimes cough after laughing,cough,uncertain,Laughter-induced cough is not specific to heart failure,British Heart Foundation
+216,I notice coughing during allergy season,cough,uncertain,Allergy-related cough may be unrelated to heart failure,NHS
+217,I cough lightly when exposed to dust,cough,uncertain,Dust irritation may cause coughing,Mayo Clinic
+218,I get a cough when breathing cold air,cough,uncertain,Cold air irritation may cause coughing,British Heart Foundation
+219,I sometimes cough after eating spicy food,cough,uncertain,Cough triggered by food may be digestive-related,NHS
+220,I get a cough when talking too much,cough,uncertain,Voice strain may trigger cough,Mayo Clinic
+221,I sometimes feel my heart beating very fast,palpitations,possible_HF,Palpitations may indicate abnormal heart rhythm,British Heart Foundation
+222,I feel fluttering sensations in my chest,palpitations,possible_HF,Chest fluttering may indicate arrhythmia,NHS
+223,I sometimes feel my heartbeat skipping,palpitations,possible_HF,Skipped beats may indicate arrhythmia,Mayo Clinic
+224,I notice sudden rapid heartbeats,palpitations,possible_HF,Tachycardia episodes may indicate cardiovascular problems,British Heart Foundation
+225,I feel pounding in my chest occasionally,palpitations,possible_HF,Pounding heartbeat may indicate rhythm disturbances,NHS
+226,I notice irregular heartbeats when resting,palpitations,possible_HF,Irregular heart rhythm may indicate arrhythmia,Mayo Clinic
+227,I sometimes feel strong heartbeats in my chest,palpitations,possible_HF,Forceful heartbeats may indicate cardiac rhythm changes,British Heart Foundation
+228,I feel fluttering in my chest while sitting quietly,palpitations,possible_HF,Palpitations at rest may indicate rhythm disorders,NHS
+229,I feel my heart racing unexpectedly,palpitations,possible_HF,Unexpected tachycardia may indicate arrhythmia,Mayo Clinic
+230,I sometimes feel sudden pounding heartbeats,palpitations,possible_HF,Pounding heartbeats may indicate rhythm disturbance,British Heart Foundation
+231,I notice my heart beating faster when stressed,palpitations,uncertain,Stress may cause temporary heart rate increase,NHS
+232,I feel my heart race during anxiety,palpitations,uncertain,Anxiety-induced palpitations are common,Mayo Clinic
+233,I feel my heartbeat increase during exercise,palpitations,uncertain,Heart rate increases during exercise are normal,British Heart Foundation
+234,I notice rapid heartbeat during excitement,palpitations,uncertain,Emotional excitement may increase heart rate,NHS
+235,I feel my heart beat quickly when nervous,palpitations,uncertain,Nervousness may cause palpitations,Mayo Clinic
+236,I sometimes feel fluttering when drinking caffeine,palpitations,uncertain,Caffeine may trigger palpitations,British Heart Foundation
+237,I feel heart racing after drinking coffee,palpitations,uncertain,Caffeine stimulation may increase heart rate,NHS
+238,I sometimes feel my heart pounding after exercise,palpitations,uncertain,Post-exercise heart rate elevation is normal,Mayo Clinic
+239,I feel my heart beating fast when startled,palpitations,uncertain,Startle response may increase heart rate,British Heart Foundation
+240,I feel my heart beat faster when climbing stairs,palpitations,uncertain,Heart rate increase during exertion is physiological,NHS
+241,I feel chest fluttering while resting,palpitations,possible_HF,Resting palpitations may indicate arrhythmia,Mayo Clinic
+242,I feel sudden irregular heartbeats,palpitations,possible_HF,Irregular heartbeat episodes may indicate rhythm disorder,British Heart Foundation
+243,I feel strong heartbeats when lying down,palpitations,possible_HF,Palpitations at rest may indicate cardiovascular dysfunction,NHS
+244,I feel pounding heartbeat during rest,palpitations,possible_HF,Forceful heartbeat sensations may indicate arrhythmia,Mayo Clinic
+245,I notice irregular pulses occasionally,palpitations,possible_HF,Irregular pulse may indicate arrhythmia,British Heart Foundation
+246,I feel sudden bursts of fast heartbeats,palpitations,possible_HF,Tachycardia bursts may indicate heart rhythm disorder,NHS
+247,I feel chest fluttering during quiet moments,palpitations,possible_HF,Palpitations without exertion may indicate arrhythmia,Mayo Clinic
+248,I notice my heartbeat feels uneven sometimes,palpitations,possible_HF,Uneven heartbeat may indicate rhythm disturbance,British Heart Foundation
+249,I sometimes feel my heart beating abnormally,palpitations,possible_HF,Abnormal heartbeat sensations may indicate arrhythmia,NHS
+250,I feel rapid heartbeat while resting,palpitations,possible_HF,Resting tachycardia may indicate cardiovascular problems,Mayo Clinic
+251,I feel mild chest vibrations occasionally,palpitations,uncertain,Chest vibration sensation may be non-specific,British Heart Foundation
+252,I feel heart fluttering during stressful days,palpitations,uncertain,Stress-related palpitations may be temporary,NHS
+253,I feel slight heartbeat irregularity when tired,palpitations,uncertain,Fatigue may influence heart rhythm perception,Mayo Clinic
+254,I notice mild chest fluttering after caffeine,palpitations,uncertain,Caffeine may cause temporary palpitations,British Heart Foundation
+255,I feel irregular heartbeat after emotional stress,palpitations,uncertain,Emotional stress may cause palpitations,NHS
+256,I feel mild palpitations when dehydrated,palpitations,uncertain,Dehydration may affect heart rhythm perception,Mayo Clinic
+257,I notice heartbeat changes during intense emotions,palpitations,uncertain,Emotional responses may alter heart rate,British Heart Foundation
+258,I feel brief palpitations occasionally,palpitations,uncertain,Short palpitations may be benign,NHS
+259,I sometimes notice mild chest fluttering,palpitations,uncertain,Non-specific palpitations may occur,Mayo Clinic
+260,I occasionally feel heartbeat irregularities,palpitations,uncertain,Occasional irregular beats may be benign,British Heart Foundation
+261,I feel heart pounding when startled,palpitations,uncertain,Startle reactions increase heart rate,NHS
+262,I feel heartbeat changes after strong coffee,palpitations,uncertain,Caffeine stimulation may affect heart rhythm,Mayo Clinic
+263,I feel my heart beat strongly after running,palpitations,uncertain,Post-exercise heartbeat changes are normal,British Heart Foundation
+264,I feel palpitations after stressful meetings,palpitations,uncertain,Stress may cause temporary palpitations,NHS
+265,I feel heartbeat racing during excitement,palpitations,uncertain,Excitement increases heart rate,Mayo Clinic
+266,I feel chest fluttering after drinking energy drinks,palpitations,uncertain,Stimulants may cause palpitations,British Heart Foundation
+267,I feel mild heartbeat changes after poor sleep,palpitations,uncertain,Sleep deprivation may influence heart rhythm,NHS
+268,I feel heartbeat fluctuations during anxiety,palpitations,uncertain,Anxiety may cause palpitations,Mayo Clinic
+269,I feel brief rapid heartbeats during stress,palpitations,uncertain,Stress-induced palpitations may occur,British Heart Foundation
+270,I feel chest fluttering after caffeine intake,palpitations,uncertain,Caffeine may trigger palpitations,NHS
+271,I feel throat irritation after coughing,non_HF,not_HF,Throat irritation is unrelated to heart failure,Mayo Clinic
+272,I sometimes have mild chest muscle pain,non_HF,not_HF,Muscle pain is unrelated to heart failure,British Heart Foundation
+273,I have mild throat dryness during winter,non_HF,not_HF,Throat dryness is unrelated to heart failure,NHS
+274,I sometimes get mild sinus congestion,non_HF,not_HF,Sinus congestion is unrelated to heart failure,Mayo Clinic
+275,I feel mild chest soreness after exercise,non_HF,not_HF,Muscle soreness is unrelated to heart failure,British Heart Foundation
+276,I get mild throat irritation from dry air,non_HF,not_HF,Dry air irritation is unrelated to heart failure,NHS
+277,I sometimes feel mild chest tightness after workouts,non_HF,not_HF,Exercise muscle strain is unrelated to heart failure,Mayo Clinic
+278,I get mild cough during colds,non_HF,not_HF,Cold-related cough is unrelated to heart failure,British Heart Foundation
+279,I sometimes get mild chest discomfort after coughing,non_HF,not_HF,Cough strain may cause chest discomfort,NHS
+280,I feel throat soreness after long talking,non_HF,not_HF,Voice strain is unrelated to heart failure,Mayo Clinic
+281,I sometimes get mild chest irritation from coughing,non_HF,not_HF,Cough irritation is unrelated to heart failure,British Heart Foundation
+282,I feel throat dryness after dehydration,non_HF,not_HF,Dehydration may cause throat dryness,NHS
+283,I sometimes feel mild chest muscle fatigue,non_HF,not_HF,Muscle fatigue is unrelated to heart failure,Mayo Clinic
+284,I sometimes get throat irritation after cold drinks,non_HF,not_HF,Cold drinks may irritate throat,British Heart Foundation
+285,I get mild cough during allergy attacks,non_HF,not_HF,Allergy cough is unrelated to heart failure,NHS
+286,I sometimes feel mild chest tightness after laughing,non_HF,not_HF,Laughter may cause muscle strain,Mayo Clinic
+287,I sometimes feel throat irritation after shouting,non_HF,not_HF,Voice strain may cause throat irritation,British Heart Foundation
+288,I get mild cough when exposed to pollen,non_HF,not_HF,Pollen allergies may cause cough,NHS
+289,I sometimes feel chest soreness after heavy lifting,non_HF,not_HF,Muscle strain is unrelated to heart failure,Mayo Clinic
+290,I get throat irritation after spicy food,non_HF,not_HF,Spicy food irritation is unrelated to heart failure,British Heart Foundation
+291,I sometimes get mild cough after drinking cold water,non_HF,not_HF,Cold drinks may trigger cough,NHS
+292,I get throat dryness after long flights,non_HF,not_HF,Dry air may cause throat dryness,Mayo Clinic
+293,I sometimes get mild cough during flu,non_HF,not_HF,Flu-related cough is unrelated to heart failure,British Heart Foundation
+294,I feel mild chest strain after workouts,non_HF,not_HF,Exercise strain is unrelated to heart failure,NHS
+295,I sometimes get throat irritation after shouting loudly,non_HF,not_HF,Voice strain irritation is unrelated,Mayo Clinic
+296,I get mild cough when exposed to smoke,non_HF,not_HF,Smoke irritation may cause cough,British Heart Foundation
+297,I feel throat dryness after sleeping with mouth open,non_HF,not_HF,Mouth breathing may cause dryness,NHS
+298,I sometimes feel mild chest soreness after coughing fits,non_HF,not_HF,Cough strain may cause muscle soreness,Mayo Clinic
+299,I get throat irritation after long phone calls,non_HF,not_HF,Voice strain irritation is unrelated,British Heart Foundation
+300,I sometimes get mild cough from cold air,non_HF,not_HF,Cold air irritation may trigger cough,NHS
+301,I gained several pounds quickly without changing my diet,fluid_retention,HF_related,Rapid unexplained weight gain may indicate fluid accumulation,NHS
+302,My weight increased suddenly within a few days,fluid_retention,HF_related,Sudden weight gain may indicate fluid retention,Mayo Clinic
+303,I notice my stomach feels bloated and heavier than usual,fluid_retention,possible_HF,Abdominal bloating may indicate fluid buildup,British Heart Foundation
+304,I gained weight very quickly over the past week,fluid_retention,HF_related,Unexplained rapid weight gain may indicate heart failure,NHS
+305,My clothes feel tighter around my waist lately,fluid_retention,possible_HF,Abdominal swelling may indicate fluid retention,Mayo Clinic
+306,I feel bloated even though I have not eaten much,fluid_retention,possible_HF,Bloating may indicate fluid accumulation,British Heart Foundation
+307,I notice my weight fluctuates quickly within a few days,fluid_retention,possible_HF,Fluid retention may cause sudden weight changes,NHS
+308,My abdomen feels swollen recently,fluid_retention,possible_HF,Abdominal swelling may indicate fluid buildup,Mayo Clinic
+309,I feel pressure in my stomach from swelling,fluid_retention,possible_HF,Fluid retention may cause abdominal pressure,British Heart Foundation
+310,I gained several pounds in just a few days,fluid_retention,HF_related,Rapid weight gain may indicate fluid accumulation,NHS
+311,My weight increases overnight sometimes,fluid_retention,possible_HF,Overnight weight changes may indicate fluid retention,Mayo Clinic
+312,I feel abdominal fullness without overeating,fluid_retention,possible_HF,Fluid buildup may cause abdominal fullness,British Heart Foundation
+313,I feel my stomach expanding slightly,fluid_retention,possible_HF,Abdominal fluid retention may occur in heart failure,NHS
+314,I gained unexpected weight this week,fluid_retention,possible_HF,Unexplained weight gain may indicate fluid retention,Mayo Clinic
+315,My waistline suddenly increased without reason,fluid_retention,possible_HF,Fluid retention may cause abdominal swelling,British Heart Foundation
+316,I feel heavier despite normal eating habits,fluid_retention,possible_HF,Unexplained heaviness may indicate fluid retention,NHS
+317,I feel swollen around my stomach area,fluid_retention,possible_HF,Abdominal swelling may indicate fluid buildup,Mayo Clinic
+318,I gained weight quickly after feeling swollen,fluid_retention,HF_related,Rapid swelling with weight gain may indicate fluid retention,British Heart Foundation
+319,I feel bloated and heavier by the evening,fluid_retention,possible_HF,Bloating may indicate fluid accumulation,NHS
+320,I gained several pounds within two days,fluid_retention,HF_related,Very rapid weight gain may indicate heart failure,Mayo Clinic
+321,I feel my abdomen tightening due to swelling,fluid_retention,possible_HF,Abdominal swelling may reflect fluid buildup,British Heart Foundation
+322,I feel bloated after resting all day,fluid_retention,uncertain,Bloating may have many causes,NHS
+323,I feel abdominal discomfort after large meals,fluid_retention,uncertain,Meal-related bloating is non-specific,Mayo Clinic
+324,I feel mild stomach swelling after eating salty foods,fluid_retention,uncertain,Salt intake may cause temporary water retention,British Heart Foundation
+325,I feel bloated during digestive issues,fluid_retention,uncertain,Bloating may be gastrointestinal,NHS
+326,I feel abdominal heaviness during stress,fluid_retention,uncertain,Stress may affect digestion,Mayo Clinic
+327,I feel mild swelling after drinking large amounts of water,fluid_retention,uncertain,Temporary fluid balance changes may occur,British Heart Foundation
+328,I feel stomach bloating after large meals,fluid_retention,uncertain,Post-meal bloating may be digestive,NHS
+329,I feel abdominal fullness during indigestion,fluid_retention,uncertain,Indigestion may cause bloating,Mayo Clinic
+330,I feel mild stomach pressure after overeating,fluid_retention,uncertain,Overeating may cause abdominal discomfort,British Heart Foundation
+331,I feel bloated after eating too quickly,fluid_retention,uncertain,Eating habits may cause bloating,NHS
+332,I notice swelling in my legs and feel tired easily,mixed_symptoms,HF_related,Combined oedema and fatigue may indicate heart failure,Mayo Clinic
+333,I feel breathless and my ankles swell by evening,mixed_symptoms,HF_related,Combination of dyspnea and oedema suggests heart failure,British Heart Foundation
+334,I feel tired and short of breath during small tasks,mixed_symptoms,possible_HF,Combined fatigue and dyspnea may indicate heart dysfunction,NHS
+335,I feel breathless and notice swelling in my feet,mixed_symptoms,HF_related,Foot swelling with breathlessness may indicate heart failure,Mayo Clinic
+336,I feel my legs swell and breathing becomes harder,mixed_symptoms,HF_related,Oedema with breathlessness may indicate heart failure,British Heart Foundation
+337,I feel exhausted and breathless while walking,mixed_symptoms,possible_HF,Fatigue with dyspnea may suggest cardiovascular issues,NHS
+338,I feel my ankles swell and my breathing worsens,mixed_symptoms,HF_related,Oedema combined with dyspnea may indicate heart failure,Mayo Clinic
+339,I feel tired and my legs swell by night,mixed_symptoms,possible_HF,Fatigue and oedema may indicate cardiovascular issues,British Heart Foundation
+340,I feel breathless when my legs are swollen,mixed_symptoms,HF_related,Combined symptoms may suggest heart failure,NHS
+341,I feel tired and my heart beats irregularly,mixed_symptoms,possible_HF,Fatigue with palpitations may indicate cardiovascular problems,Mayo Clinic
+342,I feel breathless and my heart races sometimes,mixed_symptoms,possible_HF,Combined dyspnea and palpitations may indicate heart dysfunction,British Heart Foundation
+343,I feel swelling in my feet and sudden weight gain,mixed_symptoms,HF_related,Fluid retention symptoms may indicate heart failure,NHS
+344,I feel breathless and gain weight quickly,mixed_symptoms,HF_related,Rapid weight gain with dyspnea may indicate heart failure,Mayo Clinic
+345,I feel exhausted and notice swelling in my legs,mixed_symptoms,possible_HF,Fatigue and oedema may indicate cardiovascular issues,British Heart Foundation
+346,I feel breathless with sudden weight gain,mixed_symptoms,HF_related,Rapid weight gain and dyspnea may indicate fluid buildup,NHS
+347,I feel swelling in my ankles with fatigue,mixed_symptoms,possible_HF,Oedema with fatigue may suggest cardiovascular problems,Mayo Clinic
+348,I feel breathless and tired during normal activities,mixed_symptoms,possible_HF,Combined symptoms may indicate heart dysfunction,British Heart Foundation
+349,I feel swelling in my feet with breathing difficulty,mixed_symptoms,HF_related,Oedema with dyspnea may indicate heart failure,NHS
+350,I feel breathless and gain weight quickly over days,mixed_symptoms,HF_related,Rapid weight gain with dyspnea may indicate fluid retention,Mayo Clinic
+351,I feel mild stomach discomfort after eating,non_HF,not_HF,Digestive discomfort unrelated to heart failure,British Heart Foundation
+352,I get mild headaches during hot weather,non_HF,not_HF,Heat-related headaches unrelated to heart failure,NHS
+353,I have itchy skin during allergy season,non_HF,not_HF,Allergy symptoms unrelated to heart failure,Mayo Clinic
+354,I feel mild ear pressure during flights,non_HF,not_HF,Flight ear pressure unrelated to heart failure,British Heart Foundation
+355,I feel throat irritation after talking loudly,non_HF,not_HF,Voice strain unrelated to heart failure,NHS
+356,I sometimes get muscle soreness after workouts,non_HF,not_HF,Exercise muscle soreness unrelated to heart failure,Mayo Clinic
+357,I feel mild knee pain after running,non_HF,not_HF,Joint strain unrelated to heart failure,British Heart Foundation
+358,I sometimes get eye irritation from dust,non_HF,not_HF,Eye irritation unrelated to heart failure,NHS
+359,I feel mild stomach cramps occasionally,non_HF,not_HF,Stomach cramps unrelated to heart failure,Mayo Clinic
+360,I get mild neck pain from bad posture,non_HF,not_HF,Neck strain unrelated to heart failure,British Heart Foundation
+361,I get mild back pain after lifting boxes,non_HF,not_HF,Back strain unrelated to heart failure,NHS
+362,I feel mild shoulder soreness after carrying bags,non_HF,not_HF,Shoulder strain unrelated to heart failure,Mayo Clinic
+363,I get mild wrist pain from typing too long,non_HF,not_HF,Wrist strain unrelated to heart failure,British Heart Foundation
+364,I sometimes get dry eyes during long screen time,non_HF,not_HF,Eye dryness unrelated to heart failure,NHS
+365,I get mild throat dryness during winter,non_HF,not_HF,Cold air dryness unrelated to heart failure,Mayo Clinic
+366,I sometimes get mild sinus pressure,non_HF,not_HF,Sinus pressure unrelated to heart failure,British Heart Foundation
+367,I feel mild jaw soreness after chewing gum,non_HF,not_HF,Jaw strain unrelated to heart failure,NHS
+368,I sometimes get mild ear ringing,non_HF,not_HF,Tinnitus unrelated to heart failure,Mayo Clinic
+369,I feel mild chest soreness after workouts,non_HF,not_HF,Muscle soreness unrelated to heart failure,British Heart Foundation
+370,I get mild throat irritation after cold drinks,non_HF,not_HF,Cold irritation unrelated to heart failure,NHS
+371,I sometimes feel stomach discomfort after spicy food,non_HF,not_HF,Spicy food irritation unrelated to heart failure,Mayo Clinic
+372,I get mild cough during seasonal allergies,non_HF,not_HF,Allergy cough unrelated to heart failure,British Heart Foundation
+373,I feel mild chest muscle strain after exercise,non_HF,not_HF,Muscle strain unrelated to heart failure,NHS
+374,I sometimes feel throat dryness after long flights,non_HF,not_HF,Dry air irritation unrelated to heart failure,Mayo Clinic
+375,I feel mild shoulder stiffness after sleeping badly,non_HF,not_HF,Musculoskeletal stiffness unrelated to heart failure,British Heart Foundation
+376,I get mild leg soreness after running,non_HF,not_HF,Exercise soreness unrelated to heart failure,NHS
+377,I sometimes get eye irritation from pollen,non_HF,not_HF,Pollen allergies unrelated to heart failure,Mayo Clinic
+378,I feel mild chest soreness from coughing,non_HF,not_HF,Muscle strain unrelated to heart failure,British Heart Foundation
+379,I sometimes get mild throat irritation from smoke,non_HF,not_HF,Smoke irritation unrelated to heart failure,NHS
+380,I feel mild stomach bloating after soda,non_HF,not_HF,Carbonation bloating unrelated to heart failure,Mayo Clinic
+381,I sometimes feel slight dizziness after standing quickly,uncertain,uncertain,Postural dizziness may have multiple causes,NHS
+382,I feel lightheaded during dehydration,uncertain,uncertain,Dehydration may cause dizziness,Mayo Clinic
+383,I sometimes feel weak after skipping meals,uncertain,uncertain,Low blood sugar may cause weakness,British Heart Foundation
+384,I feel dizzy during stressful moments,uncertain,uncertain,Stress may cause dizziness,NHS
+385,I sometimes feel tired after long travel,uncertain,uncertain,Travel fatigue is non-specific,Mayo Clinic
+386,I feel weak during emotional stress,uncertain,uncertain,Stress fatigue may occur,British Heart Foundation
+387,I feel tired after poor sleep nights,uncertain,uncertain,Sleep deprivation fatigue unrelated to heart failure,NHS
+388,I sometimes feel dizzy during anxiety episodes,uncertain,uncertain,Anxiety may cause dizziness,Mayo Clinic
+389,I feel weak after working long hours,uncertain,uncertain,Work fatigue is non-specific,British Heart Foundation
+390,I feel tired after intense studying,uncertain,uncertain,Mental fatigue unrelated to heart failure,NHS
+391,I feel mild dizziness after standing quickly,uncertain,uncertain,Postural dizziness may occur,Mayo Clinic
+392,I feel lightheaded when dehydrated,uncertain,uncertain,Dehydration may cause dizziness,British Heart Foundation
+393,I sometimes feel tired during stressful weeks,uncertain,uncertain,Stress fatigue may occur,NHS
+394,I feel drained after emotional situations,uncertain,uncertain,Emotional fatigue is non-specific,Mayo Clinic
+395,I feel weak after skipping breakfast,uncertain,uncertain,Low blood sugar may cause weakness,British Heart Foundation
+396,I feel tired after very busy days,uncertain,uncertain,Work fatigue may occur,NHS
+397,I feel dizzy after standing up quickly,uncertain,uncertain,Orthostatic dizziness may occur,Mayo Clinic
+398,I feel weak during long work shifts,uncertain,uncertain,Long shift fatigue is non-specific,British Heart Foundation
+399,I feel tired during stressful projects,uncertain,uncertain,Stress fatigue may occur,NHS
+400,I feel lightheaded when dehydrated during exercise,uncertain,uncertain,Dehydration may cause dizziness,Mayo Clinic
+401,I feel mild headaches during dehydration,non_HF,not_HF,Headaches unrelated to heart failure,British Heart Foundation
+402,I feel ear discomfort during flights,non_HF,not_HF,Air pressure discomfort unrelated to heart failure,NHS
+403,I get mild throat irritation after coughing,non_HF,not_HF,Throat irritation unrelated to heart failure,Mayo Clinic
+404,I sometimes feel chest soreness from workouts,non_HF,not_HF,Exercise muscle soreness unrelated to heart failure,British Heart Foundation
+405,I feel mild stomach cramps occasionally,non_HF,not_HF,Stomach cramps unrelated to heart failure,NHS
+406,I sometimes feel eye dryness after screen time,non_HF,not_HF,Eye dryness unrelated to heart failure,Mayo Clinic
+407,I get mild shoulder pain from heavy bags,non_HF,not_HF,Shoulder strain unrelated to heart failure,British Heart Foundation
+408,I feel mild knee discomfort after running,non_HF,not_HF,Knee strain unrelated to heart failure,NHS
+409,I sometimes feel wrist soreness after typing,non_HF,not_HF,Wrist strain unrelated to heart failure,Mayo Clinic
+410,I get mild throat dryness in winter weather,non_HF,not_HF,Cold air dryness unrelated to heart failure,British Heart Foundation
+411,I sometimes get mild sinus congestion,non_HF,not_HF,Sinus congestion unrelated to heart failure,NHS
+412,I feel mild jaw soreness after chewing gum,non_HF,not_HF,Jaw strain unrelated to heart failure,Mayo Clinic
+413,I sometimes get mild ear ringing after loud noise,non_HF,not_HF,Tinnitus unrelated to heart failure,British Heart Foundation
+414,I feel mild chest tightness from coughing strain,non_HF,not_HF,Muscle strain unrelated to heart failure,NHS
+415,I get mild stomach discomfort after spicy meals,non_HF,not_HF,Spicy food irritation unrelated to heart failure,Mayo Clinic
+416,I sometimes feel throat irritation from cold air,non_HF,not_HF,Cold air irritation unrelated to heart failure,British Heart Foundation
+417,I get mild cough from seasonal allergies,non_HF,not_HF,Allergy cough unrelated to heart failure,NHS
+418,I sometimes feel mild back strain after lifting boxes,non_HF,not_HF,Back strain unrelated to heart failure,Mayo Clinic
+419,I feel mild chest muscle soreness after workouts,non_HF,not_HF,Exercise soreness unrelated to heart failure,British Heart Foundation
+420,I sometimes get mild throat irritation from shouting,non_HF,not_HF,Voice strain unrelated to heart failure,NHS
+421,I feel mild stomach bloating after soda drinks,non_HF,not_HF,Carbonation bloating unrelated to heart failure,Mayo Clinic
+422,I sometimes feel mild dizziness after spinning quickly,non_HF,not_HF,Motion dizziness unrelated to heart failure,British Heart Foundation
+423,I feel mild neck stiffness after sleeping badly,non_HF,not_HF,Neck strain unrelated to heart failure,NHS
+424,I sometimes get mild eye irritation from dust,non_HF,not_HF,Dust irritation unrelated to heart failure,Mayo Clinic
+425,I feel mild leg soreness after hiking,non_HF,not_HF,Exercise soreness unrelated to heart failure,British Heart Foundation
+426,I sometimes get mild ear pressure during altitude changes,non_HF,not_HF,Altitude pressure unrelated to heart failure,NHS
+427,I feel mild throat dryness after long conversations,non_HF,not_HF,Voice dryness unrelated to heart failure,Mayo Clinic
+428,I sometimes feel mild chest soreness after laughing hard,non_HF,not_HF,Muscle strain unrelated to heart failure,British Heart Foundation
+429,I get mild stomach discomfort after overeating,non_HF,not_HF,Overeating discomfort unrelated to heart failure,NHS
+430,I sometimes feel mild wrist strain from writing too long,non_HF,not_HF,Wrist strain unrelated to heart failure,Mayo Clinic
+431,I feel mild shoulder soreness from sleeping awkwardly,non_HF,not_HF,Sleep posture strain unrelated to heart failure,British Heart Foundation
+432,I sometimes get mild throat irritation from smoke exposure,non_HF,not_HF,Smoke irritation unrelated to heart failure,NHS
+433,I feel mild chest soreness from stretching exercises,non_HF,not_HF,Stretch strain unrelated to heart failure,Mayo Clinic
+434,I sometimes get mild stomach discomfort from caffeine,non_HF,not_HF,Caffeine irritation unrelated to heart failure,British Heart Foundation
+435,I feel mild knee soreness after long walks,non_HF,not_HF,Joint strain unrelated to heart failure,NHS
+436,I sometimes feel mild eye strain from bright lights,non_HF,not_HF,Light sensitivity unrelated to heart failure,Mayo Clinic
+437,I feel mild throat dryness after dehydration,non_HF,not_HF,Dehydration irritation unrelated to heart failure,British Heart Foundation
+438,I sometimes feel mild back soreness after sitting too long,non_HF,not_HF,Posture strain unrelated to heart failure,NHS
+439,I feel mild ankle soreness after jogging,non_HF,not_HF,Exercise strain unrelated to heart failure,Mayo Clinic
+440,I sometimes feel mild jaw soreness after yawning widely,non_HF,not_HF,Jaw strain unrelated to heart failure,British Heart Foundation
+441,I feel mild stomach discomfort after fast eating,non_HF,not_HF,Fast eating irritation unrelated to heart failure,NHS
+442,I sometimes get mild throat irritation from dry air,non_HF,not_HF,Dry air irritation unrelated to heart failure,Mayo Clinic
+443,I feel mild shoulder strain after carrying backpacks,non_HF,not_HF,Muscle strain unrelated to heart failure,British Heart Foundation
+444,I sometimes feel mild chest soreness after coughing fits,non_HF,not_HF,Cough muscle strain unrelated to heart failure,NHS
+445,I feel mild eye irritation from wind exposure,non_HF,not_HF,Wind irritation unrelated to heart failure,Mayo Clinic
+446,I sometimes feel mild neck soreness after long drives,non_HF,not_HF,Driving posture strain unrelated to heart failure,British Heart Foundation
+447,I feel mild stomach discomfort after fizzy drinks,non_HF,not_HF,Carbonation irritation unrelated to heart failure,NHS
+448,I sometimes feel mild chest soreness from push-ups,non_HF,not_HF,Exercise strain unrelated to heart failure,Mayo Clinic
+449,I feel mild wrist discomfort from gaming too long,non_HF,not_HF,Wrist strain unrelated to heart failure,British Heart Foundation
+450,I sometimes feel mild throat dryness from air conditioning,non_HF,not_HF,Air conditioning dryness unrelated to heart failure,NHS
+451,I sometimes feel tired during busy days,uncertain,uncertain,Fatigue may have many causes,Mayo Clinic
+452,I sometimes feel dizzy during hot weather,uncertain,uncertain,Heat exposure may cause dizziness,British Heart Foundation
+453,I feel weak after long travel days,uncertain,uncertain,Travel fatigue is non-specific,NHS
+454,I sometimes feel tired during stressful projects,uncertain,uncertain,Stress fatigue may occur,Mayo Clinic
+455,I feel drained after emotional events,uncertain,uncertain,Emotional fatigue unrelated to heart failure,British Heart Foundation
+456,I sometimes feel dizzy when standing quickly,uncertain,uncertain,Postural dizziness may occur,NHS
+457,I feel weak after long work shifts,uncertain,uncertain,Work fatigue may occur,Mayo Clinic
+458,I sometimes feel tired during busy weeks,uncertain,uncertain,Stress fatigue may occur,British Heart Foundation
+459,I feel lightheaded when dehydrated,uncertain,uncertain,Dehydration may cause dizziness,NHS
+460,I sometimes feel weak after skipping meals,uncertain,uncertain,Low blood sugar may cause weakness,Mayo Clinic
+461,I sometimes feel tired after poor sleep,uncertain,uncertain,Sleep deprivation fatigue unrelated to heart failure,British Heart Foundation
+462,I feel dizzy during stressful situations,uncertain,uncertain,Stress may cause dizziness,NHS
+463,I sometimes feel tired during long meetings,uncertain,uncertain,Mental fatigue may occur,Mayo Clinic
+464,I feel weak after emotional stress,uncertain,uncertain,Stress fatigue unrelated to heart failure,British Heart Foundation
+465,I sometimes feel lightheaded during dehydration,uncertain,uncertain,Dehydration dizziness may occur,NHS
+466,I feel tired during very busy schedules,uncertain,uncertain,General fatigue may occur,Mayo Clinic
+467,I sometimes feel dizzy during anxiety,uncertain,uncertain,Anxiety may cause dizziness,British Heart Foundation
+468,I feel weak after skipping meals occasionally,uncertain,uncertain,Low glucose may cause weakness,NHS
+469,I sometimes feel tired during intense study periods,uncertain,uncertain,Study fatigue unrelated to heart failure,Mayo Clinic
+470,I feel drained after stressful deadlines,uncertain,uncertain,Stress fatigue may occur,British Heart Foundation
+471,I feel mild headaches after dehydration,non_HF,not_HF,Dehydration headaches unrelated to heart failure,NHS
+472,I sometimes feel throat irritation from shouting,non_HF,not_HF,Voice strain unrelated to heart failure,Mayo Clinic
+473,I feel mild chest soreness after workouts,non_HF,not_HF,Exercise soreness unrelated to heart failure,British Heart Foundation
+474,I sometimes get mild sinus congestion,non_HF,not_HF,Sinus congestion unrelated to heart failure,NHS
+475,I feel mild stomach cramps occasionally,non_HF,not_HF,Stomach cramps unrelated to heart failure,Mayo Clinic
+476,I sometimes feel mild eye dryness from screen use,non_HF,not_HF,Eye dryness unrelated to heart failure,British Heart Foundation
+477,I feel mild wrist strain after typing,non_HF,not_HF,Wrist strain unrelated to heart failure,NHS
+478,I sometimes feel mild shoulder soreness from bags,non_HF,not_HF,Shoulder strain unrelated to heart failure,Mayo Clinic
+479,I feel mild knee soreness after running,non_HF,not_HF,Knee strain unrelated to heart failure,British Heart Foundation
+480,I sometimes feel mild throat dryness in winter,non_HF,not_HF,Cold air irritation unrelated to heart failure,NHS
+481,I feel mild stomach discomfort after spicy meals,non_HF,not_HF,Spicy food irritation unrelated to heart failure,Mayo Clinic
+482,I sometimes feel mild cough from allergies,non_HF,not_HF,Allergy cough unrelated to heart failure,British Heart Foundation
+483,I feel mild chest muscle strain after exercise,non_HF,not_HF,Muscle strain unrelated to heart failure,NHS
+484,I sometimes feel mild throat irritation from smoke,non_HF,not_HF,Smoke irritation unrelated to heart failure,Mayo Clinic
+485,I feel mild stomach bloating after soda,non_HF,not_HF,Carbonation bloating unrelated to heart failure,British Heart Foundation
+486,I sometimes feel mild back soreness after lifting,non_HF,not_HF,Back strain unrelated to heart failure,NHS
+487,I feel mild eye irritation from wind,non_HF,not_HF,Wind irritation unrelated to heart failure,Mayo Clinic
+488,I sometimes feel mild neck stiffness from posture,non_HF,not_HF,Posture strain unrelated to heart failure,British Heart Foundation
+489,I feel mild ankle soreness after jogging,non_HF,not_HF,Exercise strain unrelated to heart failure,NHS
+490,I sometimes feel mild jaw soreness from chewing gum,non_HF,not_HF,Jaw strain unrelated to heart failure,Mayo Clinic
+491,I feel mild stomach discomfort from caffeine,non_HF,not_HF,Caffeine irritation unrelated to heart failure,British Heart Foundation
+492,I sometimes feel mild chest soreness after coughing,non_HF,not_HF,Cough strain unrelated to heart failure,NHS
+493,I feel mild throat irritation after cold drinks,non_HF,not_HF,Cold drink irritation unrelated to heart failure,Mayo Clinic
+494,I sometimes feel mild shoulder soreness after sleeping badly,non_HF,not_HF,Sleep posture strain unrelated to heart failure,British Heart Foundation
+495,I feel mild knee soreness after long walks,non_HF,not_HF,Joint strain unrelated to heart failure,NHS
+496,I sometimes feel mild eye strain from bright lights,non_HF,not_HF,Light sensitivity unrelated to heart failure,Mayo Clinic
+497,I feel mild throat dryness after dehydration,non_HF,not_HF,Dehydration irritation unrelated to heart failure,British Heart Foundation
+498,I sometimes feel mild back soreness from sitting long,non_HF,not_HF,Posture strain unrelated to heart failure,NHS
+499,I feel mild wrist discomfort from gaming too long,non_HF,not_HF,Wrist strain unrelated to heart failure,Mayo Clinic
+500,I sometimes feel mild throat dryness from air conditioning,non_HF,not_HF,Air conditioning irritation unrelated to heart failure,British Heart Foundation
